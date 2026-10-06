@@ -46,3 +46,16 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+
+#issues-list {
+ display: grid;
+ gap: 1rem;
+}
+.issue-card button {
+ margin-top: 0.75rem;
+}
+#form-message {
+ min-height: 1.25rem;
+ font-weight: 600;
+}
